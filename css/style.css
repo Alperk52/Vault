@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  background-size: cover;
+}
+#main-container {
+  border: solid 1px red;
+  width: 260px;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-image: url("../images/money1.gif");
+  background-size: cover;
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 165px;
+  float: left;
+  margin-left: 15px;
+}
+button:hover {
+  background-color: gold;
+}
+button:active {
+  background-color: #fff;
+  box-shadow: 0 5px #666;
+}
+#GreenBlock {
+  border-radius: 5px;
+  background-color: #30ff33;
+  width: 260px;
+  height: 25px;
+  float: left
+}
+
+#RedBlock {
+  border-radius: 5px;
+  background-color: red;
+  width: 260px;
+  height: 25px;
+  float: right
+}
+#message{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+#number-container{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
